@@ -7,6 +7,12 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Button Content="Login" HorizontalAlignment="Center" Height="41" Margin="0,299,0,0" VerticalAlignment="Top" Width="112" Click="Button_Click"/>
+        <TextBox HorizontalAlignment="Center" Height="34" Margin="0,105,0,0" TextWrapping="Wrap" Text="Email" VerticalAlignment="Top" Width="174"/>
+        <TextBox HorizontalAlignment="Center" Height="34" Margin="0,144,0,0" TextWrapping="Wrap" Text="Password email" VerticalAlignment="Top" Width="174" TextChanged="TextBox_TextChanged"/>
+        <TextBox HorizontalAlignment="Center" Height="34" Margin="0,221,0,0" TextWrapping="Wrap" Text="Username" VerticalAlignment="Top" Width="174"/>
+        <TextBox HorizontalAlignment="Center" Height="34" Margin="0,260,0,0" TextWrapping="Wrap" Text="Password username" VerticalAlignment="Top" Width="174"/>
+        <TextBox HorizontalAlignment="Center" Height="34" Margin="0,183,0,0" TextWrapping="Wrap" Text="PIN inviato tramite email" VerticalAlignment="Top" Width="174" TextChanged="TextBox_TextChanged"/>
 
     </Grid>
 </Window>
